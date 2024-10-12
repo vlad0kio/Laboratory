@@ -1,0 +1,25 @@
+Input: True;
+Team: 1;
+Live: 1;
+Sprite: 0;
+Gravity: 1;
+bbWidth: 12;
+bbHeight: 16;
+DamageTop: 1;
+DamageBottom: 1;
+VulnerableLeft: 1;
+VulnerableRight: 1;
+VulnerableTop: 1;
+ReplaceOnDead: 1;
+BehaviorFlags: [bfCameraFollows];
+),
+(
+Live: 1;
+Sprite: 1;
+Vel_Y: 8;
+Gravity: 1;
+bbWidth: 12;
+bbHeight: 16;
+ReplaceOnDead: CGameOverScreen - 3;
+SpawnFlags: [sfCopyPosition];
+BehaviorFlags: [bfIgnoreCollision];

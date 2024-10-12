@@ -1,0 +1,17 @@
+program MIJAOL;
+
+uses
+  Vcl.Forms,
+  Main in 'Main.pas' {ScreenForm},
+  Level_1_1.Entities in 'Level_1_1.Entities.pas',
+  Unit1 in 'Unit1.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  AApplication.CreateForm(TForm1, Form1);
+  Application.CreateForm(TScreenForm, ScreenForm);
+  pplication.Run;
+end.
